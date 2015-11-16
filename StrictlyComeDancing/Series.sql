@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Series]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Number] INT NOT NULL,
+    [Name] NVARCHAR(50) NOT NULL 
+)

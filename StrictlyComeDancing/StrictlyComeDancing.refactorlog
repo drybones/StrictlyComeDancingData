@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="bdae2d4f-d75a-4933-8d32-bac68620f90a" ChangeDateTime="11/13/2015 21:42:45">
+    <Property Name="ElementName" Value="[dbo].[Series].[Order]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Series]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Number" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="143aba72-1247-421e-96cd-64e2d68ef9d8" ChangeDateTime="11/13/2015 22:05:33">
+    <Property Name="ElementName" Value="[dbo].[FK_Dance_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Dance]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Dance_Couple]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d194fcf4-f2e0-4093-8cf1-edaf2093a9a6" ChangeDateTime="11/13/2015 22:08:05">
+    <Property Name="ElementName" Value="[dbo].[Score].[CoupleId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DanceId" />
+  </Operation>
+</Operations>
